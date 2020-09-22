@@ -1,7 +1,7 @@
 module.exports = (req, res) => {
   var faunadb = require('faunadb')
   const q = faunadb.query
-  var client = new faunadb.Client({ secret: 'fnAD2XNa01ACB1Xq_GiLuMKki9MTexLZkFn1eNC5' })
+  var client = new faunadb.Client({ secret: '' })
 
   var createP = client.query(
     q.Map(
